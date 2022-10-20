@@ -1,0 +1,96 @@
+/* ========== Header */
+.header{
+    margin: 4rem auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 46rem;
+    margin-bottom: 1.5rem;
+}
+.header strong{
+    font-weight: bold;
+    font-size: 0.875rem;
+    margin-right: 0.5rem;
+}
+.header span{
+    color: var(--gray-200);
+    font-weight: bold;
+    
+    font-size: 0.75rem;
+    background-color: var(--gray-400);
+    
+    padding: 3px 9px;
+    border-radius: 999px;
+}
+
+.taskTotalCount > strong{
+    color: var(--blue-300);
+}
+.taskCompletedCount > strong{
+    color: var(--purple-300);
+}
+
+/* ========== Empty list */
+.listEmpty{
+    display: flex;
+    max-width: 46rem;
+    margin: 0 auto;
+    flex-direction: column;
+    padding: 4rem 1.5rem;
+    margin-top: 4rem;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid var(--gray-400);
+    border-radius: 0.5rem;
+}
+.listEmpty img{
+    margin-bottom: 1rem;
+}
+.listEmpty p{
+    font-weight: 700;
+    color: var(--gray-300);
+}
+.listEmpty p + p{
+    font-weight: 400;
+    line-height: 1.375rem;
+}
+
+/* ========== Task list */
+.listTask{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 16px;
+    margin-bottom: 0.75rem;
+    gap: 12px;
+    width: 46rem;
+    height: 4.5rem;
+    background: var(--gray-500);
+    border: 1px solid var(--gray-400);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+.content{
+    color: var(--gray-100);
+    line-height: 1.375rem;
+}
+
+/*========== Button checked */
+
+.taskCompleted{
+    color: var(--gray-300);
+    text-decoration-line: line-through;
+}
+
+.checkbox{
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid var(--blue-300);
+    border-radius: 100%;
+}
+
+.checkbox:hover{
+    border: 2px solid var(--blue-500);
+}
+
