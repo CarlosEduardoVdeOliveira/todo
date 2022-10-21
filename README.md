@@ -20,22 +20,35 @@ Treinando os conceitos de componentes e propriedades no react
 <br>
 
 <p align="center">
-  <img alt="todo empty" src=".github/empty_list.png" width="40%"> <img alt="todo list" src=".github/list.png" width="40%">
+  <img alt="todo empty" src=".github/ToDo List (Copy).png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML e CSS
-- JavaScript
-- [Node e NPM](https://nodejs.org/)
+- [React](https://reactjs.org/)
 - [Vite](https://vitejs.dev/)
+- [Typescript](https://www.typescriptlang.org/)
+
 
 ## 💻 Projeto
 
-Desafio proposto pela Rocketseat para fixar os conceitos de componetização e passagem de propriedades no react.
+Neste desafio, foi desenvolvido um aplicativo de controle de tarefas no estilo lista de tarefas, que contém as seguintes funcionalidades:
 
+- [x] Adicionar uma nova tarefa
+- [x] Marcar e desmarcar uma tarefa como concluída
+- [x] Remover uma tarefa da lista
+- [x] Mostrar o progresso da conclusão da tarefa
+
+Embora existam poucos recursos, conceitos como:
+<ul>
+<li>Estados</li>
+<li>Imutabilidade de estado</li>
+<li>Listas e chaves no ReactJS</li>
+<li>Propriedades</li>
+<li>Componentização</li>
+</ul>
 ## 🔖 Layout
 
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/GXODjA6z2hOjYD2ZUmOiqT/ToDo-List-(Copy)). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
