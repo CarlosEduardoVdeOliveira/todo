@@ -39,7 +39,6 @@ Neste desafio, foi desenvolvido um aplicativo de controle de tarefas no estilo l
 - [x] Adicionar uma nova tarefa
 - [x] Marcar e desmarcar uma tarefa como concluída
 - [x] Remover uma tarefa da lista
-- [x] Mostrar o progresso da conclusão da tarefa
 
 Embora existam poucos recursos, conceitos como:
 <ul>
